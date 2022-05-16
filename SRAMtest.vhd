@@ -1,0 +1,29 @@
+--LIBRARY ieee;
+--USE ieee.std_logic_1164.all;
+--USE Ieee.numeric_std.all;
+--
+--ENTITY SRAMtest IS
+--	PORT( address	: OUT STD_LOGIC_VECTOR (1 DOWNTO 0);
+--			clock		: OUT STD_LOGIC;
+--			data		: OUT STD_LOGIC_VECTOR (5 DOWNTO 0);
+--			rden		: OUT STD_LOGIC;
+--			wren		: OUT STD_LOGIC ;
+--			q			: IN STD_LOGIC_VECTOR (5 DOWNTO 0));
+--END SRAMtest;
+--
+--ARCHITECTURE Behaviour OF SRAMtest IS
+--	
+--COMPONENT SRAMtest IS
+--	PORT( address	: OUT STD_LOGIC_VECTOR (1 DOWNTO 0);
+--			clock		: OUT STD_LOGIC;
+--			data		: OUT STD_LOGIC_VECTOR (5 DOWNTO 0);
+--			rden		: OUT STD_LOGIC;
+--			wren		: OUT STD_LOGIC ;
+--			q			: IN STD_LOGIC_VECTOR (5 DOWNTO 0));
+--END COMPONENT;
+--
+--BEGIN
+--
+--	SRAM: 
+--	
+--END Behaviour;
